@@ -32,7 +32,7 @@ public class ObjectRegisterVolume : MonoBehaviour
         {
             while (obj.transform.parent != null)
             {
-                if (obj.transform.parent.gameObject.GetComponent<Collider>() == null && obj.transform.parent.name != "extra colliders") break;
+                if (obj.transform.parent.gameObject.GetComponent<Collider>() == null && obj.transform.parent.name != "extra colliders" && obj.transform.parent.GetComponent<Rigidbody>() == null) break;
                 obj = obj.transform.parent.gameObject;
                 
             }            
