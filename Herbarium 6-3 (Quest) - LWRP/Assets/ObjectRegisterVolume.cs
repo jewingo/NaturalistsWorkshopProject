@@ -45,7 +45,7 @@ public class ObjectRegisterVolume : MonoBehaviour
                     //registryCandidates.Remove(entry.Key);
                     if (registeredObjectRespawner != null && registeredObject != entry.Key)
                     {
-                        Debug.Log("Respawning " + registeredObjectRespawner.gameObject.name);
+                        //Debug.Log("Respawning " + registeredObjectRespawner.gameObject.name);
                         registeredObjectRespawner.Respawn();
                     }
                     registeredObject = entry.Key;
@@ -93,7 +93,7 @@ public class ObjectRegisterVolume : MonoBehaviour
             if(grabbable != null)
             {
                 registryCandidates.Add(obj, grabbable);
-                Debug.Log("Added register candidate " + obj.name);
+                //Debug.Log("Added register candidate " + obj.name);
             }
            
         }
@@ -116,7 +116,7 @@ public class ObjectRegisterVolume : MonoBehaviour
         if (registryCandidates.ContainsKey(obj))
         {
             registryCandidates.Remove(obj);
-            Debug.Log("Removed register candidate " + obj.name);
+            //Debug.Log("Removed register candidate " + obj.name);
         }
 
         if (registeredObject == obj)

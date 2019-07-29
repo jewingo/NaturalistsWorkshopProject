@@ -19,7 +19,7 @@ public class FloorRespawner : MonoBehaviour
         {
             {
                 respawnableObjects.Add(respawnables[i].gameObject, respawnables[i]);
-                Debug.Log(respawnables[i].gameObject.name + " added to (respawnableobjects)!");
+                //Debug.Log(respawnables[i].gameObject.name + " added to (respawnableobjects)!");
             }
             
         }
@@ -39,7 +39,7 @@ public class FloorRespawner : MonoBehaviour
                     //rsPair.Value.Respawn();
                     //floorItems.Remove(rsPair.Key);
                     respawned.Add(rsPair);
-                    Debug.Log(rsPair.Key.name + " ready to respawn...");
+                    //Debug.Log(rsPair.Key.name + " ready to respawn...");
                 //} else
                 {
                     //Debug.Log(rsPair.Key.name + " velocity (magnitude): " + rsPair.Value.rb.velocity.magnitude);
@@ -61,7 +61,7 @@ public class FloorRespawner : MonoBehaviour
             if(respawner != null)
             {
                 floorItems.Add(collision.gameObject, respawner);
-                Debug.Log(collision.gameObject.name + " added to (FloorObjects)!");
+                //Debug.Log(collision.gameObject.name + " added to (FloorObjects)!");
             }
             
         }
@@ -72,7 +72,7 @@ public class FloorRespawner : MonoBehaviour
         if(respawnableObjects.ContainsKey(collision.gameObject) && floorItems.ContainsKey(collision.gameObject))
         {
             floorItems.Remove(collision.gameObject);
-            Debug.Log(collision.gameObject.name + " removed from (FloorObjects)!");
+            //Debug.Log(collision.gameObject.name + " removed from (FloorObjects)!");
         }
     }
 }
