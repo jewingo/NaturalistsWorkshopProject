@@ -17,11 +17,14 @@ public class PanoramaViewer : MonoBehaviour
     [SerializeField]
     protected List<PanosphereView> views;
     [SerializeField]
+    protected string defaultKey;
+    [SerializeField]
     protected ObjectRegisterVolume registerVolume;
     private bool regCheck = false;
     private List<string> viewLookup = new List<string>();
     private Material currentMaterial;
     private MeshRenderer renderer;
+    private bool viewable = false;
     void Start()
     {
         renderer = GetComponent<MeshRenderer>();
@@ -30,7 +33,6 @@ public class PanoramaViewer : MonoBehaviour
         {
             regCheck = true;
         }
-        //skybox = RenderSettings.skybox;
         if (skybox == null)
         {
             skybox = new Material(Shader.Find("Skybox/Cubemap"));
@@ -38,9 +40,6 @@ public class PanoramaViewer : MonoBehaviour
         }
         
         defaultSkybox = RenderSettings.skybox;
-        //skybox.material = new Material(new Shader("Skybox"));
-        //defaultSkybox = gameObject.scene
-        //skybox.material.mainTexture = preview.mainTexture;
         boundingCollider = GetComponent<Collider>();
         defaultLayerMask = mainCamera.cullingMask;
         ObjectRegisterVolume.OnRegister += SetView;
@@ -64,10 +63,7 @@ public class PanoramaViewer : MonoBehaviour
                     CastPreviewToSkybox();
                     wasViewing = true;
                 }
-                else
-                {
 
-                }
             }
         }
     }
@@ -95,17 +91,13 @@ public class PanoramaViewer : MonoBehaviour
     {
        if(boundingCollider != null)
         {
-            if(boundingCollider.bounds.Contains(mainCamera.transform.position))
+            if(boundingCollider.bounds.Contains(mainCamera.transform.position) && viewable)
             {
                 if(!wasViewing)
                 {
                     Debug.Log("Cull Everything, Replace Skybox");
                     CastPreviewToSkybox();
                     wasViewing = true;
-                }
-                else
-                {
-                    
                 }
             }
             else
@@ -136,6 +128,11 @@ public class PanoramaViewer : MonoBehaviour
             preview = views[viewLookup.IndexOf(name)].preview;
             currentMaterial = preview;
             renderer.material = currentMaterial;
+            viewable = true;
+        } else
+        {
+
+            viewable = false;
         }
     }
 
