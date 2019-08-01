@@ -8,7 +8,12 @@ public class PanoramaViewer : MonoBehaviour
     [SerializeField]
     protected Material skybox;
     protected Material defaultSkybox;
-    public Material preview;
+    [SerializeField]
+    protected Material inactiveMaterial;
+    [SerializeField]
+    protected GameObject inactivitySymbol;
+    [SerializeField]
+    protected Material preview;
     [SerializeField]
     protected Camera mainCamera;
     protected Collider boundingCollider;
@@ -24,11 +29,17 @@ public class PanoramaViewer : MonoBehaviour
     private List<string> viewLookup = new List<string>();
     private Material currentMaterial;
     private MeshRenderer renderer;
-    private bool viewable = false;
+    private bool viewable = true;
+
     void Start()
     {
         renderer = GetComponent<MeshRenderer>();
         if (preview == null) { if (GetComponent<Material>() != null) preview = GetComponent<Material>(); }
+        if (inactiveMaterial == null) inactiveMaterial = preview;
+        if (inactivitySymbol != null)
+        {
+            inactivitySymbol.SetActive(false);
+        }
         if (registerVolume != null)
         {
             regCheck = true;
@@ -129,12 +140,26 @@ public class PanoramaViewer : MonoBehaviour
             currentMaterial = preview;
             renderer.material = currentMaterial;
             viewable = true;
+            if (inactivitySymbol != null)
+            {
+                inactivitySymbol.SetActive(false);
+            }
         } else
         {
-
+            currentMaterial = inactiveMaterial;
+            renderer.material = currentMaterial;
             viewable = false;
+            if (inactivitySymbol != null)
+            {
+                inactivitySymbol.SetActive(true);
+            }
         }
     }
+
+    //void ResetView(string name)
+    //{
+    //    viewable = false;
+    //}
 
     void CastPreviewToSkybox()
     {

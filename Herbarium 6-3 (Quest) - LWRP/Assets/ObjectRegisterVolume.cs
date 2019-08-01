@@ -121,6 +121,11 @@ public class ObjectRegisterVolume : MonoBehaviour
 
         if (registeredObject == obj)
         {
+            if(OnUnregister != null)
+            {
+                OnUnregister(registeredObject.name);
+            }
+            //OnUnregister(registeredObject.name);
             registeredObject = null;
             registeredObjectRespawner = null;
             label.text = "Place Sample in Tray";

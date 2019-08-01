@@ -6,6 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class Respawner : MonoBehaviour
 {
+    public Transform spawnTransform;
     public Vector3 spawnPosition;
     public Quaternion spawnRotation;
     protected Rigidbody body;
@@ -37,8 +38,15 @@ public class Respawner : MonoBehaviour
             body.velocity = Vector3.zero;
             //body.MovePosition(spawnPosition);
             //body.MoveRotation(spawnRotation);
-            transform.position = spawnPosition;
-            transform.rotation = spawnRotation;
+            if(spawnTransform != null)
+            {
+                transform.position = spawnTransform.position;
+                transform.rotation = spawnRotation;
+            } else
+            {
+                transform.position = spawnPosition;
+                transform.rotation = spawnRotation;
+            }
             body.isKinematic = false;
             Debug.Log(gameObject.name + " respawned!");
         }
