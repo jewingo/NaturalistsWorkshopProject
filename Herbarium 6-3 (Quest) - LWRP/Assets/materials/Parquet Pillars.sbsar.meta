@@ -1,15 +1,30 @@
 fileFormatVersion: 2
 guid: 0bca8b91475e199409086cd918cea360
 ScriptedImporter:
-  fileIDToRecycleName:
-    2100000: Wood Parquet Five Finger
-    2800000: Wood Parquet Five Finger - baseColor
-    2800002: Wood Parquet Five Finger - normal
-    2800004: Wood Parquet Five Finger - ambientOcclusion
-    2800006: Wood Parquet Five Finger - height
-    11400000: sbsar
-    11400002: graph0
+  internalIDToNameTable:
+  - first:
+      21: 2100000
+    second: Wood Parquet Five Finger
+  - first:
+      28: 2800000
+    second: Wood Parquet Five Finger - baseColor
+  - first:
+      28: 2800002
+    second: Wood Parquet Five Finger - normal
+  - first:
+      28: 2800004
+    second: Wood Parquet Five Finger - ambientOcclusion
+  - first:
+      28: 2800006
+    second: Wood Parquet Five Finger - height
+  - first:
+      114: 11400000
+    second: sbsar
+  - first:
+      114: 11400002
+    second: graph0
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 

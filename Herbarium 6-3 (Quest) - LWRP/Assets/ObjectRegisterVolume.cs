@@ -54,7 +54,7 @@ public class ObjectRegisterVolume : MonoBehaviour
                     {
                         OnRegister(registeredObject.name);
                     }
-                    label.text = registeredObject.name;
+                    //label.text = registeredObject.name;
                 }
             }
             if(registeredObject != null)
@@ -128,7 +128,7 @@ public class ObjectRegisterVolume : MonoBehaviour
             //OnUnregister(registeredObject.name);
             registeredObject = null;
             registeredObjectRespawner = null;
-            label.text = "Place Sample in Tray";
+            //label.text = "Place Sample in Tray";
         }
         /*
         if (OnUnregister != null)
