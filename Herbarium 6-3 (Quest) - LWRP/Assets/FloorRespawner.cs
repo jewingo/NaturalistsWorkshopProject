@@ -14,7 +14,6 @@ public class FloorRespawner : MonoBehaviour
     void Start()
     {
         Respawner[] respawnables = FindObjectsOfType<Respawner>();
-        Rigidbody tempBody;
         for(int i = 0; i < respawnables.Length; i++)
         {
             {
