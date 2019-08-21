@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4736025791557311454}
   - component: {fileID: 4736025791557311452}
   - component: {fileID: 4736025791557311455}
+  - component: {fileID: 9151405765580352496}
   m_Layer: 0
   m_Name: Acer Saccharum Var Floridanum
   m_TagString: Untagged
@@ -45,9 +46,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3645755480574048467}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.8
   m_Drag: 0.3
-  m_AngularDrag: 0.2
+  m_AngularDrag: 2
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -88,6 +89,25 @@ MonoBehaviour:
   - {fileID: 4736025790513617789}
   - {fileID: 4736025791173261086}
   - {fileID: 4736025790702254146}
+--- !u!114 &9151405765580352496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3645755480574048467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13768018d2a1d544d88411198803a920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yLimit: -1
+  yDrag: 0.8
+  generalDragContribution: 0.6
+  rightingForce: 0.25
+  spinTorque: 160
+  maxAngularVelocity: 200
+  minDistance: 0.2
 --- !u!1 &4736025790513617786
 GameObject:
   m_ObjectHideFlags: 0
