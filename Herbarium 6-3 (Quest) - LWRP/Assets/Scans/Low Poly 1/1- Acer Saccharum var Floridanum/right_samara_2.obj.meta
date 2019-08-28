@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 615714cb7b377654ea709498a60061cc
+guid: a2eb99e8a503aae43a762d089ae6434a
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
@@ -7,7 +7,7 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: defaultMat
+      name: initialShadingGroup
     second: {fileID: 2100000, guid: fec207d5dfaeaa8418f0b5aabd8a57db, type: 2}
   materials:
     importMaterials: 1
@@ -64,8 +64,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 135
-    normalImportMode: 1
+    normalSmoothAngle: 60
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
