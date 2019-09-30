@@ -1,0 +1,372 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8489968797444225327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Table Frame
+  m_EditorClassIdentifier: 
+  isSelected: 1
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1019.30334
+    height: 1012.08655
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1024
+    height: 1024
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1405.2876
+    y: 1620.5077
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 1933.2876
+    y: 1092.5077
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 1421.2876
+    y: 1108.5077
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 788e1ba028bf3404c8644bc7fa074960, type: 3}
+  - name: Metallic
+    texture: {fileID: 2800000, guid: 739c81b7dae3c614da1c94298b44cc5e, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 8a24c3b6a2c457342b123ca3180cd910, type: 3}
+  - name: Emissive
+    texture: {fileID: 0}
+  - name: Occlusion
+    texture: {fileID: 0}
+  meshes:
+  - {fileID: 4300000, guid: 192881125f03d084cad54771f4537f18, type: 3}
+--- !u!114 &-1533028643804426719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Table_Mid-Drawer
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 8.258301
+    y: 1013.6758
+    width: 1039.9983
+    height: 1011.9984
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 1024
+    width: 1024
+    height: 1024
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1611.7814
+    y: 2323.6953
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2139.7812
+    y: 1795.6953
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 1627.7814
+    y: 1811.6953
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: f97996249d3643b4494757dee45a425e, type: 3}
+  - name: Metallic
+    texture: {fileID: 2800000, guid: 48ba8f1533663674b9126215a45bbb44, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 6e1dac5c8be572943b9a3cffaaed5162, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 0}
+  - name: New TextureGroup
+    texture: {fileID: 0}
+  meshes:
+  - {fileID: 4300000, guid: 0890f6471a9c59b45b8b2c4bc65f9f26, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892d1a7aeb4cc284dbf62e69e125db52, type: 3}
+  m_Name: DeskAtlas
+  m_EditorClassIdentifier: 
+  textureQuads:
+  - {fileID: -8489968797444225327}
+  - {fileID: 153825958099182948}
+  - {fileID: -1533028643804426719}
+  - {fileID: 2894452595616182547}
+  - {fileID: 7841058630510748120}
+  - {fileID: 7797222739808839594}
+  selectedTextureQuad: {fileID: -8489968797444225327}
+  showTextures: 1
+  textureAtlasSize: {x: 2048, y: 2048}
+  textureGroupRegistration:
+  - name: Albedo
+  - name: Metallic
+  - name: Normal
+  - name: Emissive
+  - name: Occlusion
+--- !u!114 &153825958099182948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Table_Drawer
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 1012.4054
+    y: 1015.38135
+    width: 515.0962
+    height: 508.64465
+  guiRect:
+    serializedVersion: 2
+    x: 1024
+    y: 1024
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 3034.5566
+    y: 2418.0798
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 3306.5566
+    y: 2146.0798
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 3050.5566
+    y: 2162.0798
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 19424d75e7965a24f828e3a4c28caadd, type: 3}
+  - name: Metallic
+    texture: {fileID: 2800000, guid: 1dcf4d9ff9ef7b048b33e1813bae03a7, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 8d1722ff5baa405498d5fb17ebc5763a, type: 3}
+  - name: Emissive
+    texture: {fileID: 0}
+  - name: Occlusion
+    texture: {fileID: 0}
+  meshes:
+  - {fileID: 4300000, guid: 4e0a934231f2bf5428eac8018d584c51, type: 3}
+--- !u!114 &2894452595616182547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Table_Piece
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 1027.9982
+    y: 1542.7648
+    width: 511.99927
+    height: 511.9994
+  guiRect:
+    serializedVersion: 2
+    x: 1024
+    y: 1536
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 3034.5566
+    y: 2930.0798
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 3306.5566
+    y: 2658.0798
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 3050.5566
+    y: 2674.0798
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 05bbddc99016de546997a7e0a19ddc6f, type: 3}
+  - name: Metallic
+    texture: {fileID: 2800000, guid: d8d0ac78cae65544181fb551b917899e, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 2ca5cf87d57482f4ea504df2bcf45bf5, type: 3}
+  - name: Emissive
+    texture: {fileID: 0}
+  - name: Occlusion
+    texture: {fileID: 0}
+  meshes:
+  - {fileID: 4300000, guid: dfb1cde5f6ea0a64bb59ddd8e123e6b6, type: 3}
+--- !u!114 &7797222739808839594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Lamp
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 1546.1489
+    y: 1023.0736
+    width: 504.92188
+    height: 497.2296
+  guiRect:
+    serializedVersion: 2
+    x: 1536
+    y: 1024
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 2801.8213
+    y: 2194.499
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 3073.8213
+    y: 1922.499
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 2817.8213
+    y: 1938.499
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 5c9155f351a4ae8448052dba68859dd1, type: 3}
+  - name: Metallic
+    texture: {fileID: 2800000, guid: 999b954c527a7604f8e62228bebb61fb, type: 3}
+  - name: Normal
+    texture: {fileID: 0}
+  - name: Emissive
+    texture: {fileID: 2800000, guid: b138348d90c70404381f97342a6a4f9b, type: 3}
+  - name: Occlusion
+    texture: {fileID: 0}
+  meshes:
+  - {fileID: -2432090755550338912, guid: 4aa5a4d69594d744a8e3abd1f33efdbf, type: 3}
+--- !u!114 &7841058630510748120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Cabinet
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 1027.9316
+    y: 0
+    width: 1012.61255
+    height: 1027.9972
+  guiRect:
+    serializedVersion: 2
+    x: 1024
+    y: 0
+    width: 1024
+    height: 1024
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 2100.2803
+    y: 1415.3944
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2628.2803
+    y: 887.3944
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 2116.2803
+    y: 903.3944
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 600c983ab11c3284c8ddf3173af3c3a7, type: 3}
+  - name: Metallic
+    texture: {fileID: 2800000, guid: fddf3c31ed305de478ced922e5b37dfb, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 35fc18e790b6b5642a59e6405af583c9, type: 3}
+  - name: Emissive
+    texture: {fileID: 0}
+  - name: Occlusion
+    texture: {fileID: 0}
+  meshes:
+  - {fileID: 4300000, guid: a8a2e229f8ffcbd48a401cdabcc3b408, type: 3}

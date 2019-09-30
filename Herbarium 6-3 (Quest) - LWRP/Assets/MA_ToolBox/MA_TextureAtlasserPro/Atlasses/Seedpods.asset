@@ -1,0 +1,695 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9149586423307285451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Pinus Maximartinezii
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 1538.1827
+    width: 500.72656
+    height: 509.81726
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 1536
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 875.1471
+    y: 1037.8335
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 1147.1471
+    y: 765.83356
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 891.1471
+    y: 781.83356
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 275390071d92a634e99200d2b822f565, type: 3}
+  - name: Normal
+    texture: {fileID: 0}
+  meshes: []
+--- !u!114 &-8928723378095421327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Quercus Alba
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 509.08984
+    y: 1031.8162
+    width: 514.3629
+    height: 509.81738
+  guiRect:
+    serializedVersion: 2
+    x: 512
+    y: 1024
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1991.0763
+    y: 3210.9421
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2263.0762
+    y: 2938.9421
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 2007.0763
+    y: 2954.9421
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 9217d476a502eb1408d696dd913bd929, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 7e386278b6765104ea6f97efefc6fb71, type: 3}
+  meshes:
+  - {fileID: -2432090755550338912, guid: ec9288a251a8ca34e818725dee07cc74, type: 3}
+--- !u!114 &-6671870085183223242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Castanea Dentata
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 522.57983
+    width: 502.19305
+    height: 518.322
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 512
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 966.3397
+    y: 1780.2498
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 1238.3397
+    y: 1508.2498
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 982.3397
+    y: 1524.2498
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 2e08c99c58d0c3c48a129f607ba4987f, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 1d66c439fcd413a4fbe084a588cde349, type: 3}
+  meshes:
+  - {fileID: -2432090755550338912, guid: acefb816d10569740a91c840bccd2793, type: 3}
+--- !u!114 &-5300624163528379289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Aesculus Sylvatica
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 508.8228
+    y: 2.9412842
+    width: 522.1172
+    height: 504.4701
+  guiRect:
+    serializedVersion: 2
+    x: 512
+    y: 0
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 2373.4204
+    y: 1713.1692
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2645.4204
+    y: 1441.1692
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 2389.4204
+    y: 1457.1692
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 872cd27d22db7e149b0fc038f9d1b4ce, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: d2185ed75c4c71f45aa3a08917724d57, type: 3}
+  meshes:
+  - {fileID: -3870580634705259398, guid: afe988c1a63effd4f9030288cb9e29f0, type: 3}
+--- !u!114 &-4895886115855964938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Carya Ovalis
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 1527.4956
+    y: 5.8824463
+    width: 520.50433
+    height: 502.193
+  guiRect:
+    serializedVersion: 2
+    x: 1536
+    y: 0
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 2502.3398
+    y: 1268.2498
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2774.3398
+    y: 996.24976
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 2518.3398
+    y: 1012.24976
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 36da244998667794fac755fecbbaa2ae, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 58b05d0e2fe74114eb68172e32067fd4, type: 3}
+  meshes:
+  - {fileID: -2432090755550338912, guid: 166b6188af1b46642869b229857eb307, type: 3}
+--- !u!114 &-1708562329099819140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Juglans Cinerea
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 512.90247
+    y: 522.57996
+    width: 508.64465
+    height: 515.0962
+  guiRect:
+    serializedVersion: 2
+    x: 512
+    y: 512
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1478.3397
+    y: 1780.2498
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 1750.3397
+    y: 1508.2498
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 1494.3397
+    y: 1524.2498
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: a654ab11850695d4583c4d825f3b7ee7, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 7fe0eb1982df8b54d875cd9a32cfd490, type: 3}
+  meshes:
+  - {fileID: -2432090755550338912, guid: ed34d6d8fddbd814681fa0c83d8d1500, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892d1a7aeb4cc284dbf62e69e125db52, type: 3}
+  m_Name: Seedpods
+  m_EditorClassIdentifier: 
+  textureQuads:
+  - {fileID: 6006499493805306788}
+  - {fileID: -5300624163528379289}
+  - {fileID: 8444676588763267808}
+  - {fileID: -4895886115855964938}
+  - {fileID: -6671870085183223242}
+  - {fileID: -1708562329099819140}
+  - {fileID: 7943962917039663306}
+  - {fileID: 6760591146679677116}
+  - {fileID: 6421518197234442834}
+  - {fileID: -8928723378095421327}
+  - {fileID: 4692750716418880635}
+  - {fileID: 2225477657814483491}
+  - {fileID: -9149586423307285451}
+  selectedTextureQuad: {fileID: 0}
+  showTextures: 1
+  textureAtlasSize: {x: 2048, y: 2048}
+  textureGroupRegistration:
+  - name: Albedo
+  - name: Normal
+--- !u!114 &2225477657814483491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Quercus Virginiana
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 1533.6372
+    y: 1013.6343
+    width: 514.3628
+    height: 500.72656
+  guiRect:
+    serializedVersion: 2
+    x: 1536
+    y: 1024
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 3015.0762
+    y: 3210.9421
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 3287.0762
+    y: 2938.9421
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 3031.0762
+    y: 2954.9421
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: e573e6b5eb25cb54ca6faf1e72ab1cf4, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 049cd9230e0bbdf4da6aafcb0d78a355, type: 3}
+  meshes:
+  - {fileID: -2432090755550338912, guid: 83627cd2bbfeaae46b6766b5f4328a84, type: 3}
+--- !u!114 &4692750716418880635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Quercus Michauxii
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 1013.6344
+    y: 1013.6344
+    width: 527.99927
+    height: 500.72656
+  guiRect:
+    serializedVersion: 2
+    x: 1024
+    y: 1024
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 2503.0762
+    y: 3210.9421
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2775.0762
+    y: 2938.9421
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 2519.0762
+    y: 2954.9421
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 7d2ae7c96db31144aa5ee2133c9cb07a, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 80967ad0f2fdcc740b80cdf3b3640f9c, type: 3}
+  meshes:
+  - {fileID: -2432090755550338912, guid: bf9a56387cda59b48903a473ff5daeff, type: 3}
+--- !u!114 &6006499493805306788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Acer Saccharum var Floridanum
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 521
+    height: 514
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 845.9416
+    y: 1480.395
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 1117.9417
+    y: 1208.395
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 861.9416
+    y: 1224.395
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 31f1ec0f5881e6242aff0763822e0346, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: d2c86d07617265c48a4aaf22ee779d96, type: 3}
+  meshes:
+  - {fileID: -2432090755550338912, guid: 615714cb7b377654ea709498a60061cc, type: 3}
+  - {fileID: 4164511204261677510, guid: acc29de9e2b85bf4d80acb28be917d1b, type: 3}
+  - {fileID: -7542903778820799142, guid: 3c85066cc9b82184d9e4ff1280c5b3a1, type: 3}
+--- !u!114 &6421518197234442834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Platanus Occidentalis
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 9.09082
+    y: 1022.72534
+    width: 514.3628
+    height: 527.99927
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 1024
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1479.0763
+    y: 3210.9421
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 1751.0763
+    y: 2938.9421
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 1495.0763
+    y: 2954.9421
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 0}
+  - name: Normal
+    texture: {fileID: 0}
+  meshes: []
+--- !u!114 &6760591146679677116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Pinus Glabra
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 1527.2697
+    y: 518.1808
+    width: 509.81763
+    height: 500.72632
+  guiRect:
+    serializedVersion: 2
+    x: 1536
+    y: 512
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 3015.0762
+    y: 2698.9421
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 3287.0762
+    y: 2426.9421
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 3031.0762
+    y: 2442.9421
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 0}
+  - name: Normal
+    texture: {fileID: 0}
+  meshes: []
+--- !u!114 &7943962917039663306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Juniperus Virginiana
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 1019.35333
+    y: 499.99927
+    width: 511.87048
+    height: 511.87036
+  guiRect:
+    serializedVersion: 2
+    x: 1024
+    y: 512
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 2503.0762
+    y: 2698.9421
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2775.0762
+    y: 2426.9421
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 2519.0762
+    y: 2442.9421
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 05832d8e4351e5e4e868e18cc53697b6, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: a1f7872a1ea9e1945a982ededd88f6af, type: 3}
+  meshes:
+  - {fileID: -2432090755550338912, guid: dbd56732430c6074b8fd6ceb4389552d, type: 3}
+--- !u!114 &8444676588763267808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Alnus Serrulata
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 1017.64575
+    y: 0
+    width: 510.3523
+    height: 501.52893
+  guiRect:
+    serializedVersion: 2
+    x: 1024
+    y: 0
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1869.9417
+    y: 1480.395
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2141.9417
+    y: 1208.395
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 1885.9417
+    y: 1224.395
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 0}
+  - name: Normal
+    texture: {fileID: 0}
+  meshes: []
