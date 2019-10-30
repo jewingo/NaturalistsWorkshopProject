@@ -47,6 +47,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees Flat Ring (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4397015260299182579, guid: c7c938ffce0030044b6becf77163b136,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4528465503529307969, guid: c7c938ffce0030044b6becf77163b136,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -55,7 +60,7 @@ PrefabInstance:
     - target: {fileID: 4528465503529307969, guid: c7c938ffce0030044b6becf77163b136,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.93297
+      value: 9.37
       objectReference: {fileID: 0}
     - target: {fileID: 4528465503529307969, guid: c7c938ffce0030044b6becf77163b136,
         type: 3}
@@ -132,6 +137,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees Flat Ring (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4397015260299182579, guid: c7c938ffce0030044b6becf77163b136,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4528465503529307969, guid: c7c938ffce0030044b6becf77163b136,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -140,7 +150,7 @@ PrefabInstance:
     - target: {fileID: 4528465503529307969, guid: c7c938ffce0030044b6becf77163b136,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.93297
+      value: 9.37
       objectReference: {fileID: 0}
     - target: {fileID: 4528465503529307969, guid: c7c938ffce0030044b6becf77163b136,
         type: 3}
@@ -217,6 +227,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees Flat Ring (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4397015260299182579, guid: c7c938ffce0030044b6becf77163b136,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4528465503529307969, guid: c7c938ffce0030044b6becf77163b136,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -225,7 +240,7 @@ PrefabInstance:
     - target: {fileID: 4528465503529307969, guid: c7c938ffce0030044b6becf77163b136,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.93297
+      value: 9.37
       objectReference: {fileID: 0}
     - target: {fileID: 4528465503529307969, guid: c7c938ffce0030044b6becf77163b136,
         type: 3}
@@ -307,6 +322,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trees Flat Ring
       objectReference: {fileID: 0}
+    - target: {fileID: 4397015260299182579, guid: c7c938ffce0030044b6becf77163b136,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4528465503529307969, guid: c7c938ffce0030044b6becf77163b136,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -315,7 +335,7 @@ PrefabInstance:
     - target: {fileID: 4528465503529307969, guid: c7c938ffce0030044b6becf77163b136,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.93297
+      value: 9.37
       objectReference: {fileID: 0}
     - target: {fileID: 4528465503529307969, guid: c7c938ffce0030044b6becf77163b136,
         type: 3}

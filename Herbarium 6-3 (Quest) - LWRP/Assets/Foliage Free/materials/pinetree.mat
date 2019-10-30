@@ -12,7 +12,7 @@ Material:
   m_ShaderKeywords: _ALPHATEST_ON _ENVIRONMENTREFLECTIONS_OFF _WINDQUALITY_NONE
   m_LightmapFlags: 6
   m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 1
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
