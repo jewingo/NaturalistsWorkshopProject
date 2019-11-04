@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4255503507331187258
+--- !u!1 &6392929927766493669
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,57 +8,57 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4255503507330702874}
-  - component: {fileID: 4255503507329932858}
-  - component: {fileID: 4255503507328933114}
-  - component: {fileID: 8347669570488948266}
+  - component: {fileID: 753344071564450045}
+  - component: {fileID: 783778516639140272}
+  - component: {fileID: 3122433221833904351}
+  - component: {fileID: 4644531403348666179}
   m_Layer: 0
-  m_Name: Pine Tree
+  m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
+  m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4255503507330702874
+--- !u!4 &753344071564450045
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4255503507331187258}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.8, z: 0}
+  m_GameObject: {fileID: 6392929927766493669}
+  m_LocalRotation: {x: -0, y: -0.1441737, z: -0, w: 0.98955244}
+  m_LocalPosition: {x: 5.5215006, y: 1.465677, z: 2.0935395}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4255503507329932858
+  m_LocalEulerAnglesHint: {x: 0, y: -16.579, z: 0}
+--- !u!33 &783778516639140272
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4255503507331187258}
-  m_Mesh: {fileID: 4300002, guid: 6a08450e9ce0dde4a8c7594f7297582a, type: 3}
---- !u!23 &4255503507328933114
+  m_GameObject: {fileID: 6392929927766493669}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &3122433221833904351
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4255503507331187258}
+  m_GameObject: {fileID: 6392929927766493669}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e9ad3e92c3d5b8848baa0f62c47f7300, type: 2}
+  - {fileID: 2100000, guid: 6f3dbcf7fcfe9fb49b05e9a1bbebf85c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -66,7 +66,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 2
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -79,28 +79,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!205 &8347669570488948266
-LODGroup:
+--- !u!64 &4644531403348666179
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4255503507331187258}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: 0.27965117, y: 10.772371, z: -0.16607094}
-  m_Size: 21.544743
-  m_FadeMode: 2
-  m_AnimateCrossFading: 1
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.002399343
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 4255503507328933114}
-  - screenRelativeHeight: 0.0009509546
-    fadeTransitionWidth: 0
-    renderers: []
-  - screenRelativeHeight: 0.00012687128
-    fadeTransitionWidth: 0
-    renderers: []
+  m_GameObject: {fileID: 6392929927766493669}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
