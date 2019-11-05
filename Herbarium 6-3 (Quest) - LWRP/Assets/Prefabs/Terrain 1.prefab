@@ -43,7 +43,7 @@ Terrain:
   serializedVersion: 5
   m_TerrainData: {fileID: 15600000, guid: 88ec8c1d08415324eb1c001882c3256c, type: 2}
   m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
+  m_TreeBillboardDistance: 10
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
@@ -57,8 +57,8 @@ Terrain:
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 0
   m_MaterialTemplate: {fileID: 2100000, guid: 594ea882c5a793440b60ff72d896021e, type: 2}
-  m_BakeLightProbesForTrees: 1
-  m_PreserveTreePrototypeLayers: 0
+  m_BakeLightProbesForTrees: 0
+  m_PreserveTreePrototypeLayers: 1
   m_DeringLightProbesForTrees: 1
   m_ScaleInLightmap: 0.0256
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}

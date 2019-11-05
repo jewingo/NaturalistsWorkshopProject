@@ -164,7 +164,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.VRPlants.HerbariumForestTest
+    Android: com.VRPlants.HerbariumTestForest
     Standalone: com.oculus.UnitySample
     XboxOne: com.oculus.UnitySample
     iPhone: com.oculus.UnitySample
